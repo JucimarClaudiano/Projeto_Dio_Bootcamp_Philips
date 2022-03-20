@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aling-content</title>
+    
+    
+    <style>
+        .container{
+            height: 300px;
+            max-width: 200px;
+            margin: 0 ;
+            display: flex;
+            flex-flow: wrap;
+            border: 1px solid black;
+        }
+        .item{
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+        }
+        .strech{
+            align-content: stretch;
+        }
+        .center{
+            align-content: center;
+        }
+        start{
+            align-content: flex-start;
+        }
+        .wrap{
+            flex-flow: wrap;
+        }
+    
+    </style>
+</head>
+
+<body>
+   
+    <h1>center </h1>
+   <div class="container strech wrap">
+       
+       <div class="item">dsfdsfsdfsdafasdfasdfasddsfsdfsdfsdafdfgdgdsgdgdfgdfgdfsgdfgdfsdfgsdf</div>
+       <div class="item">dsfdsfsdfsdafasdfasdfasddsfsdfsdf</div>
+       <div class="item">dsfdsfsdfsdafasdfasdfasddfsdfsdfsdfsadfsdafdsfsdafdsdfsdfasdfsa</div>
+       <div class="item">dsfdsfsdfsdaf</div>
+       <div class="item">dsfdsfsdfsdafasdfasdfasddsfsafsdfsdfsa</div>
+       <div class="item">dsfdsfsdfsdafasdfasdfasddfsdf</div>
+       <div class="item">dsfdsfsdfsdafasdf</div>
+       
+   </div>
+   
+   
+    <h1>center </h1>
+   <div class="container strech">
+       
+       <div class="item">dsfdsfsdfsdafasdfasfgdfsgdfgdfsdfgsdf</div>
+       <div class="item">dsfdsfsdfsdafafsdfsdf</div>
+       <div class="item">dsfdsfsdfsdafasdfasdfasdfsdafdsdfsdfasdfsa</div>
+       <div class="item">dsfdsfsdfsdaf</div>
+       <div class="item">dsfdsfsdfsdafasdfasdfasddsfsafsdfsdfsa</div>
+       <div class="item">dsfdsfsdfsdafasdfasdfasddfsdf</div>
+       <div class="item">dsfdsfsdfsdafasdf</div>
+       
+   </div>
+   
+    <h1>start </h1>
+   <div class="container start">
+       
+       <div class="item">dsfdsfsdfsdafasdfasfgdfsgdfgdfsdfgsdf</div>
+       <div class="item">dsfdsfsdfsdafafsdfsdf</div>
+       <div class="item">dsfdsfsdfsdafasdfasdfasdfsdafdsdfsdfasdfsa</div>
+       <div class="item">dsfdsfsdfsdaf</div>
+       <div class="item">dsfdsfsdfsdafasdfasdfasddsfsafsdfsdfsa</div>
+       <div class="item">dsfdsfsdfsdafasdfasdfasddfsdf</div>
+       <div class="item">dsfdsfsdfsdafasdf</div>
+       
+   </div>
+    
+</body>
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">

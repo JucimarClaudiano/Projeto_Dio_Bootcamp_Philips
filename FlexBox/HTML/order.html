@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER</title>
+    <style>
+        .container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 350px;
+            margin-bottom: 20px;
+        }
+    
+        .item{
+            flex: 1;
+            background-color: red;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            margin: 5px;
+            order: 0;
+        }
+        .o1{
+            order: 1
+        }
+        .o2{
+            order: 2
+        }
+        .o3{
+            order: 3
+        }
+    
+        .direction{
+            flex-direction: column;
+        }
+    </style>
+    
+</head>
+
+<body>
+   
+   <h1>order-0</h1>
+   <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+       
+   </div>
+   
+      <h1>order-diferente</h1>
+   <div class="container">
+      <div class="item o1">1</div>
+      <div class="item o2">2</div>
+      <div class="item o3">3</div>
+      <div class="item o1">4M</div>
+       
+   </div>
+   
+    <h1>order-collum</h1>
+   <div class="container direction">
+      <div class="item o1">1</div>
+      <div class="item o2">2</div>
+      <div class="item o3">3</div>
+      <div class="item o1">4M</div>
+       
+   </div>
+    
+</body>
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">

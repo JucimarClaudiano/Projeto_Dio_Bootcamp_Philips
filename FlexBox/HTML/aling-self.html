@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aling-self</title>
+    
+    <style>
+        .container{
+            display: flex;
+            border: 1px solid black;
+            margin-bottom: 10px;
+            max-width: 300px;
+            align-items:  center;
+            
+            
+        }
+        .item{
+            background-color: darkred;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+            
+        }
+        .center{
+            align-self: center;
+        }
+         .start{
+            align-self: start;
+        }
+         .end{
+            align-self: end;
+        }
+         .basisline{
+            align-self: baseline;
+        }
+         .stretch{
+            align-self: stretch;
+        }
+         .auto{
+            align-self: auto;
+        }
+    </style>
+</head>
+
+<body>
+   
+   <div class="container">
+       <div class="item auto">AAA</div>
+       <div class="item auto">123</div>
+       <div class="item auto">BEM VINDO AO FLEXBOX</div>
+       <div class="item auto">ITEM4</div>
+   </div>
+    
+</body>
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
